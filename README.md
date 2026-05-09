@@ -366,6 +366,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <!-- showcase:start -->
 
+## Research Report
+
+**Nutrient-Aware Meal Planning under Macro Targets**
+
+_An optimization study using USDA FoodData Central and weekly meal-plan generation_
+
+A self-contained research-grade report (Abstract, Introduction, Research Problem, Research Questions, Literature Review, Research Method, Data Description, Analysis, Discussion, Conclusion, Future Work, References) is published with this repository.
+
+[Read the full report (PDF)](docs/research_report.pdf)
+
+**Keywords:** nutrition, meal planning, optimization, USDA FoodData Central, mixed-integer programming
+
+![Research metrics](docs/research_metrics.png)
+
 ## Architecture
 
 ```mermaid
