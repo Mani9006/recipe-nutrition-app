@@ -361,3 +361,37 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <p align="center">
   Built with care for healthy eating and home cooking.
 </p>
+
+---
+
+<!-- showcase:start -->
+
+## Architecture
+
+```mermaid
+flowchart LR
+    Recipe[Recipe Input] --> Nutrition[Nutrition Calculator]
+    Nutrition --> MealPlan[Meal Planner]
+    MealPlan --> Shopping[Shopping List]
+    Recipe --> Search[Search Index]
+    App[React PWA] --> Recipe
+    App --> LS[(localStorage)]
+```
+
+## Test Results
+
+![Test results](docs/test_results.png)
+
+_This project is configuration-focused (Terraform / Kubernetes manifests / Docker Compose / PWA). Validation runs via the project's native tooling rather than a unit-test suite._
+
+## References & Further Reading
+
+- USDA FoodData Central. *Standard Reference Data for Nutrient Composition.* [↗](https://fdc.nal.usda.gov/)
+
+## Author
+
+**Manikanta Reddy Mandadhi** — Senior Data Scientist (RAG / Agentic AI)
+
+GitHub: [@Mani9006](https://github.com/Mani9006/recipe-nutrition-app) · LinkedIn: [reddy1999](https://www.linkedin.com/in/reddy1999) · Portfolio: [manikantabio.com](https://www.manikantabio.com)
+
+<!-- showcase:end -->

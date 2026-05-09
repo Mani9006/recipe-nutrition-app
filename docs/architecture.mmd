@@ -1,0 +1,7 @@
+flowchart LR
+    Recipe[Recipe Input] --> Nutrition[Nutrition Calculator]
+    Nutrition --> MealPlan[Meal Planner]
+    MealPlan --> Shopping[Shopping List]
+    Recipe --> Search[Search Index]
+    App[React PWA] --> Recipe
+    App --> LS[(localStorage)]
